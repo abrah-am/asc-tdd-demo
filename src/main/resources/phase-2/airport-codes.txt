@@ -1,0 +1,30 @@
+code|name|city|state|country
+ATL|Hartsfield Jackson|Atlanta|GA|US
+AUS|Austin|Austin|TX|US
+BOS|Boston|Boston|MA|US
+CGX|Chicago - Meigs|Chicago|IL|US
+CHI|Chicago - All Aiports|Chicago|IL|US
+MDW|Chicago - Midway|Chicago|IL|US
+ORD|Chicago - O'Hare|Chicago|IL|US
+CLT|Charlotte|Charlotte|NC|US
+DFW|Dallas/Forth Worth|Dallas|TX|US
+LAX|Los Angeles|Los Angeles|CA|US
+MIA|Miami - International|Miami|FL|US
+MPB|Miami - Sea Plane Base|Miami|FL|US
+NYC|New York - All Airports|New York|NY|US
+JFK|New York - Kenedy|New York|NY|US
+LGA|New York - La Guardia|New York|NY|US
+MCO|Orlando - International|Orlando|FL|US
+ORL|Orlando - Herndon|Orlando|FL|US
+PHX|Phoenix|Phoenix|AZ|US
+PHL|Philadelphia - International|Philadelphia|PA|US
+TTN|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+TPA|Tampa|Tampa|FL|US
+LKE|Seattle - Lake Union|Seattle|WA|US
+SEA|Seattle - Tacoma International|Seattle|WA|US
+SFO|San Francisco|San Francisco|CA|US
+HOU|Huston - All airports|Huston|TX|US
+IAH|Huston - Intercontinental|Huston|TX|US
+WAS|Washington - All airports|Washington|DC|US
+IAD|Washington - Dulles|Washington|DC|US
+DCA|Washington - National|Washington|DC|US
