@@ -1,202 +1,202 @@
-Flight#|Departure Date/Time|Orig City|Orig State|Orig Country|Dest City|Dest state|Dest Country
-F00000|03-24-17 15:00|Los Angeles|CA|US|Philadelphia - Trenton/Mercer NJ|PA|US
-F00001|04-18-17 09:00|Hartsfield Jackson|GA|US|Orlando - Herndon|FL|US
-F00002|03-15-17 03:00|New York - La Guardia|NY|US|Charlotte|NC|US
-F00003|03-12-17 12:00|Phoenix|AZ|US|New York - Kenedy|NY|US
-F00001|04-18-17 09:00|Hartsfield Jackson|GA|US|Orlando - Herndon|FL|US
-F00005|03-14-17 01:00|Miami - Sea Plane Base|FL|US|Charlotte|NC|US
-F00006|03-29-17 16:00|Hartsfield Jackson|GA|US|Dallas/Forth Worth|TX|US
-F00007|03-27-17 15:00|Huston - All airports|TX|US|Chicago - O'Hare|IL|US
-F00008|03-03-17 17:00|San Francisco|CA|US|New York - Kenedy|NY|US
-F00009|04-02-17 22:00|Dallas/Forth Worth|TX|US|Philadelphia - International|PA|US
-F00010|03-18-17 23:00|Miami - International|FL|US|Boston|MA|US
-F00011|03-16-17 01:00|Orlando - International|FL|US|Chicago - All Aiports|IL|US
-F00012|04-11-17 05:00|Washington - Dulles|DC|US|Orlando - International|FL|US
-F00013|04-21-17 02:00|Seattle - Lake Union|WA|US|San Francisco|CA|US
-F00014|03-28-17 23:00|Boston|MA|US|Miami - Sea Plane Base|FL|US
-F00015|04-07-17 07:00|Chicago - Meigs|IL|US|Miami - Sea Plane Base|FL|US
-F00016|04-17-17 23:00|Miami - International|FL|US|Huston - All airports|TX|US
-F00017|04-23-17 23:00|New York - Kenedy|NY|US|Chicago - Midway|IL|US
-F00018|04-08-17 19:00|Seattle - Tacoma International|WA|US|Chicago - Midway|IL|US
-F00019|04-21-17 00:00|New York - Kenedy|NY|US|San Francisco|CA|US
-F00020|04-11-17 00:00|Phoenix|AZ|US|Tampa|FL|US
-F00021|04-19-17 14:00|Hartsfield Jackson|GA|US|Tampa|FL|US
-F00022|03-04-17 18:00|Chicago - Meigs|IL|US|Miami - International|FL|US
-F00023|04-02-17 05:00|Dallas/Forth Worth|TX|US|Washington - National|DC|US
-F00024|03-28-17 18:00|Huston - All airports|TX|US|Boston|MA|US
-F00025|04-10-17 10:00|Huston - Intercontinental|TX|US|Orlando - International|FL|US
-F00026|03-19-17 07:00|New York - All Airports|NY|US|Boston|MA|US
-F00027|03-24-17 22:00|New York - Kenedy|NY|US|Phoenix|AZ|US
-F00028|03-07-17 00:00|Boston|MA|US|Philadelphia - International|PA|US
-F00029|04-05-17 21:00|Seattle - Lake Union|WA|US|Seattle - Tacoma International|WA|US
-F00030|04-20-17 01:00|Boston|MA|US|Orlando - Herndon|FL|US
-F00031|03-04-17 23:00|Chicago - All Aiports|IL|US|Tampa|FL|US
-F00032|03-17-17 12:00|Chicago - Meigs|IL|US|Chicago - Midway|IL|US
-F00033|04-05-17 06:00|Washington - All airports|DC|US|Hartsfield Jackson|GA|US
-F00034|04-25-17 13:00|Washington - National|DC|US|Hartsfield Jackson|GA|US
-F00035|03-13-17 10:00|Tampa|FL|US|Austin|TX|US
-F00017|04-23-17 23:00|New York - Kenedy|NY|US|Chicago - Midway|IL|US
-F00037|03-02-17 03:00|Boston|MA|US|Phoenix|AZ|US
-F00018|04-08-17 19:00|Seattle - Tacoma International|WA|US|Chicago - Midway|IL|US
-F00039|03-24-17 06:00|Washington - All airports|DC|US|Los Angeles|CA|US
-F00040|04-11-17 14:00|Hartsfield Jackson|GA|US|Chicago - All Aiports|IL|US
-F00041|03-17-17 17:00|Washington - All airports|DC|US|Tampa|FL|US
-F00042|03-11-17 00:00|New York - La Guardia|NY|US|Hartsfield Jackson|GA|US
-F00043|03-06-17 01:00|Seattle - Lake Union|WA|US|New York - All Airports|NY|US
-F00044|03-18-17 15:00|Huston - Intercontinental|TX|US|Washington - All airports|DC|US
-F00045|04-28-17 21:00|Charlotte|NC|US|Philadelphia - International|PA|US
-F00046|03-18-17 15:00|Tampa|FL|US|Orlando - International|FL|US
-F00047|03-06-17 07:00|Chicago - Midway|IL|US|New York - Kenedy|NY|US
-F00048|04-03-17 00:00|Dallas/Forth Worth|TX|US|Chicago - Midway|IL|US
-F00049|03-02-17 15:00|Dallas/Forth Worth|TX|US|Seattle - Tacoma International|WA|US
-F00050|03-08-17 20:00|Chicago - O'Hare|IL|US|Los Angeles|CA|US
-F00051|03-23-17 13:00|New York - Kenedy|NY|US|Washington - All airports|DC|US
-F00052|03-08-17 20:00|Austin|TX|US|Austin|TX|US
-F00053|04-19-17 21:00|San Francisco|CA|US|Orlando - Herndon|FL|US
-F00054|04-18-17 15:00|San Francisco|CA|US|Chicago - All Aiports|IL|US
-F00055|03-12-17 10:00|New York - Kenedy|NY|US|Orlando - International|FL|US
-F00056|04-29-17 17:00|Huston - Intercontinental|TX|US|Washington - All airports|DC|US
-F00057|04-07-17 08:00|Chicago - All Aiports|IL|US|Philadelphia - Trenton/Mercer NJ|PA|US
-F00058|04-03-17 04:00|Tampa|FL|US|Huston - All airports|TX|US
-F00059|04-10-17 19:00|Phoenix|AZ|US|Washington - Dulles|DC|US
-F00060|03-04-17 06:00|Hartsfield Jackson|GA|US|Washington - Dulles|DC|US
-F00061|04-05-17 09:00|Charlotte|NC|US|Phoenix|AZ|US
-F00062|04-02-17 05:00|Washington - National|DC|US|Washington - Dulles|DC|US
-F00063|04-26-17 14:00|Boston|MA|US|Philadelphia - Trenton/Mercer NJ|PA|US
-F00064|04-21-17 07:00|Seattle - Tacoma International|WA|US|Charlotte|NC|US
-F00065|03-02-17 05:00|Charlotte|NC|US|Phoenix|AZ|US
-F00066|04-12-17 22:00|Austin|TX|US|Miami - International|FL|US
-F00067|04-14-17 21:00|Philadelphia - Trenton/Mercer NJ|PA|US|Seattle - Lake Union|WA|US
-F00068|03-27-17 02:00|Seattle - Tacoma International|WA|US|San Francisco|CA|US
-F00069|03-18-17 17:00|Hartsfield Jackson|GA|US|Hartsfield Jackson|GA|US
-F00007|03-27-17 15:00|Huston - All airports|TX|US|Chicago - O'Hare|IL|US
-F00071|03-31-17 06:00|Los Angeles|CA|US|Boston|MA|US
-F00072|03-19-17 18:00|Chicago - O'Hare|IL|US|Washington - Dulles|DC|US
-F00073|04-15-17 05:00|Orlando - Herndon|FL|US|Los Angeles|CA|US
-F00074|03-17-17 15:00|New York - La Guardia|NY|US|Chicago - Meigs|IL|US
-F00075|03-18-17 10:00|Philadelphia - International|PA|US|Washington - Dulles|DC|US
-F00076|04-03-17 14:00|Washington - National|DC|US|Seattle - Tacoma International|WA|US
-F00077|03-01-17 18:00|Miami - Sea Plane Base|FL|US|Phoenix|AZ|US
-F00078|03-21-17 06:00|Huston - Intercontinental|TX|US|Huston - Intercontinental|TX|US
-F00079|04-22-17 05:00|Chicago - O'Hare|IL|US|Boston|MA|US
-F00080|03-03-17 11:00|Phoenix|AZ|US|Orlando - International|FL|US
-F00081|03-15-17 12:00|Huston - Intercontinental|TX|US|Philadelphia - Trenton/Mercer NJ|PA|US
-F00082|03-30-17 02:00|Chicago - O'Hare|IL|US|New York - La Guardia|NY|US
-F00083|04-10-17 17:00|Orlando - Herndon|FL|US|Orlando - Herndon|FL|US
-F00084|03-12-17 21:00|Huston - All airports|TX|US|Miami - Sea Plane Base|FL|US
-F00085|03-19-17 11:00|New York - All Airports|NY|US|Austin|TX|US
-F00043|03-06-17 01:00|Seattle - Lake Union|WA|US|New York - All Airports|NY|US
-F00049|03-02-17 15:00|Dallas/Forth Worth|TX|US|Seattle - Tacoma International|WA|US
-F00088|03-13-17 08:00|Chicago - O'Hare|IL|US|Austin|TX|US
-F00089|03-27-17 05:00|Huston - All airports|TX|US|Orlando - Herndon|FL|US
-F00090|03-29-17 07:00|Seattle - Lake Union|WA|US|Charlotte|NC|US
-F00091|04-17-17 21:00|Tampa|FL|US|New York - La Guardia|NY|US
-F00092|04-26-17 05:00|Orlando - Herndon|FL|US|New York - La Guardia|NY|US
-F00093|03-15-17 04:00|San Francisco|CA|US|Boston|MA|US
-F00094|03-19-17 11:00|New York - La Guardia|NY|US|New York - La Guardia|NY|US
-F00095|04-10-17 09:00|San Francisco|CA|US|Hartsfield Jackson|GA|US
-F00096|04-26-17 17:00|Orlando - Herndon|FL|US|Miami - Sea Plane Base|FL|US
-F00024|03-28-17 18:00|Huston - All airports|TX|US|Boston|MA|US
-F00098|04-06-17 01:00|Charlotte|NC|US|Chicago - O'Hare|IL|US
-F00099|03-31-17 13:00|Washington - All airports|DC|US|Boston|MA|US
-F00100|04-03-17 05:00|Philadelphia - Trenton/Mercer NJ|PA|US|Chicago - All Aiports|IL|US
-F00101|03-10-17 10:00|Chicago - O'Hare|IL|US|Chicago - Meigs|IL|US
-F00102|03-15-17 09:00|Tampa|FL|US|Washington - National|DC|US
-F00103|03-11-17 03:00|Chicago - Meigs|IL|US|Orlando - Herndon|FL|US
-F00104|03-17-17 08:00|New York - All Airports|NY|US|Charlotte|NC|US
-F00105|03-21-17 22:00|Philadelphia - International|PA|US|Hartsfield Jackson|GA|US
-F00091|04-17-17 21:00|Tampa|FL|US|New York - La Guardia|NY|US
-F00107|03-30-17 10:00|Dallas/Forth Worth|TX|US|Seattle - Lake Union|WA|US
-F00108|04-27-17 03:00|Tampa|FL|US|Orlando - International|FL|US
-F00017|04-23-17 23:00|New York - Kenedy|NY|US|Chicago - Midway|IL|US
-F00110|04-05-17 00:00|Los Angeles|CA|US|Hartsfield Jackson|GA|US
-F00111|03-31-17 06:00|Austin|TX|US|New York - Kenedy|NY|US
-F00112|03-30-17 10:00|Philadelphia - International|PA|US|Seattle - Tacoma International|WA|US
-F00113|03-28-17 18:00|Chicago - O'Hare|IL|US|Hartsfield Jackson|GA|US
-F00114|03-09-17 12:00|Philadelphia - International|PA|US|New York - All Airports|NY|US
-F00115|03-26-17 07:00|New York - All Airports|NY|US|Chicago - Meigs|IL|US
-F00116|03-27-17 01:00|Chicago - O'Hare|IL|US|Charlotte|NC|US
-F00117|03-12-17 06:00|Washington - Dulles|DC|US|Orlando - International|FL|US
-F00118|03-08-17 06:00|Seattle - Lake Union|WA|US|Orlando - Herndon|FL|US
-F00119|03-29-17 08:00|Hartsfield Jackson|GA|US|Chicago - Midway|IL|US
-F00120|04-03-17 11:00|Boston|MA|US|Boston|MA|US
-F00121|03-03-17 16:00|Dallas/Forth Worth|TX|US|Huston - All airports|TX|US
-F00122|03-01-17 03:00|Orlando - International|FL|US|Philadelphia - International|PA|US
-F00123|04-15-17 22:00|Charlotte|NC|US|Boston|MA|US
-F00124|03-19-17 06:00|Miami - International|FL|US|Chicago - O'Hare|IL|US
-F00125|03-04-17 09:00|Charlotte|NC|US|Seattle - Tacoma International|WA|US
-F00126|04-26-17 06:00|Tampa|FL|US|Miami - Sea Plane Base|FL|US
-F00127|03-22-17 16:00|Austin|TX|US|New York - La Guardia|NY|US
-F00128|03-02-17 11:00|Austin|TX|US|San Francisco|CA|US
-F00129|04-01-17 23:00|Charlotte|NC|US|Huston - All airports|TX|US
-F00130|04-12-17 08:00|Chicago - Midway|IL|US|Huston - Intercontinental|TX|US
-F00131|04-07-17 12:00|Washington - National|DC|US|Seattle - Tacoma International|WA|US
-F00132|03-07-17 19:00|Tampa|FL|US|Seattle - Lake Union|WA|US
-F00133|03-07-17 06:00|New York - All Airports|NY|US|Los Angeles|CA|US
-F00134|03-27-17 20:00|Tampa|FL|US|San Francisco|CA|US
-F00135|04-18-17 06:00|Phoenix|AZ|US|San Francisco|CA|US
-F00136|03-27-17 18:00|Hartsfield Jackson|GA|US|Boston|MA|US
-F00137|03-12-17 21:00|Philadelphia - International|PA|US|Washington - Dulles|DC|US
-F00138|04-24-17 15:00|Hartsfield Jackson|GA|US|Austin|TX|US
-F00139|03-26-17 07:00|Orlando - International|FL|US|New York - La Guardia|NY|US
-F00140|03-02-17 17:00|Philadelphia - Trenton/Mercer NJ|PA|US|Phoenix|AZ|US
-F00141|04-04-17 18:00|Austin|TX|US|Huston - Intercontinental|TX|US
-F00142|04-18-17 18:00|Charlotte|NC|US|Charlotte|NC|US
-F00143|04-16-17 22:00|Orlando - International|FL|US|Orlando - Herndon|FL|US
-F00144|03-25-17 04:00|Orlando - Herndon|FL|US|New York - Kenedy|NY|US
-F00145|03-05-17 06:00|Washington - National|DC|US|New York - Kenedy|NY|US
-F00146|04-04-17 05:00|Miami - Sea Plane Base|FL|US|Orlando - International|FL|US
-F00147|03-23-17 10:00|Phoenix|AZ|US|Orlando - International|FL|US
-F00148|03-07-17 16:00|Charlotte|NC|US|Orlando - Herndon|FL|US
-F00149|03-26-17 21:00|Chicago - Meigs|IL|US|Chicago - Meigs|IL|US
-F00150|04-21-17 10:00|Hartsfield Jackson|GA|US|Hartsfield Jackson|GA|US
-F00151|03-24-17 17:00|Charlotte|NC|US|Los Angeles|CA|US
-F00152|04-02-17 20:00|Dallas/Forth Worth|TX|US|Phoenix|AZ|US
-F00153|04-06-17 07:00|Philadelphia - International|PA|US|Miami - Sea Plane Base|FL|US
-F00154|03-23-17 15:00|Philadelphia - Trenton/Mercer NJ|PA|US|Seattle - Lake Union|WA|US
-F00155|03-02-17 15:00|Chicago - Meigs|IL|US|Orlando - Herndon|FL|US
-F00156|04-01-17 18:00|Hartsfield Jackson|GA|US|Miami - Sea Plane Base|FL|US
-F00157|03-17-17 23:00|New York - Kenedy|NY|US|Miami - International|FL|US
-F00158|04-17-17 00:00|New York - All Airports|NY|US|New York - All Airports|NY|US
-F00159|03-16-17 18:00|Seattle - Tacoma International|WA|US|Tampa|FL|US
-F00160|03-18-17 18:00|Tampa|FL|US|Tampa|FL|US
-F00161|04-15-17 20:00|Boston|MA|US|Chicago - All Aiports|IL|US
-F00162|04-24-17 07:00|New York - La Guardia|NY|US|Hartsfield Jackson|GA|US
-F00163|03-19-17 20:00|Washington - All airports|DC|US|Miami - Sea Plane Base|FL|US
-F00164|04-27-17 10:00|Phoenix|AZ|US|Dallas/Forth Worth|TX|US
-F00165|04-06-17 12:00|San Francisco|CA|US|Phoenix|AZ|US
-F00166|03-18-17 17:00|Washington - National|DC|US|Miami - International|FL|US
-F00167|04-10-17 14:00|Los Angeles|CA|US|Orlando - Herndon|FL|US
-F00168|03-05-17 07:00|Miami - International|FL|US|Philadelphia - Trenton/Mercer NJ|PA|US
-F00169|03-28-17 06:00|Chicago - O'Hare|IL|US|Chicago - O'Hare|IL|US
-F00170|04-10-17 00:00|Tampa|FL|US|Boston|MA|US
-F00171|04-22-17 17:00|Chicago - Meigs|IL|US|Chicago - Midway|IL|US
-F00172|04-12-17 06:00|New York - Kenedy|NY|US|Washington - National|DC|US
-F00173|04-12-17 09:00|Los Angeles|CA|US|Chicago - All Aiports|IL|US
-F00174|04-26-17 17:00|Philadelphia - Trenton/Mercer NJ|PA|US|New York - All Airports|NY|US
-F00175|04-21-17 12:00|Chicago - Meigs|IL|US|Huston - All airports|TX|US
-F00176|03-16-17 01:00|San Francisco|CA|US|Chicago - Midway|IL|US
-F00177|03-29-17 02:00|Dallas/Forth Worth|TX|US|Washington - All airports|DC|US
-F00178|04-01-17 13:00|Hartsfield Jackson|GA|US|Orlando - Herndon|FL|US
-F00013|04-21-17 02:00|Seattle - Lake Union|WA|US|San Francisco|CA|US
-F00180|03-20-17 03:00|Chicago - Meigs|IL|US|Seattle - Lake Union|WA|US
-F00181|03-15-17 03:00|Miami - International|FL|US|Huston - Intercontinental|TX|US
-F00182|04-17-17 21:00|Washington - All airports|DC|US|Washington - All airports|DC|US
-F00183|04-26-17 06:00|Chicago - O'Hare|IL|US|Miami - Sea Plane Base|FL|US
-F00184|03-12-17 05:00|Chicago - All Aiports|IL|US|Chicago - Midway|IL|US
-F00185|03-23-17 21:00|Washington - Dulles|DC|US|Washington - Dulles|DC|US
-F00186|03-12-17 05:00|Seattle - Lake Union|WA|US|Orlando - Herndon|FL|US
-F00187|03-02-17 21:00|Chicago - Meigs|IL|US|Charlotte|NC|US
-F00188|04-12-17 02:00|Washington - Dulles|DC|US|Orlando - International|FL|US
-F00189|03-23-17 21:00|Chicago - Meigs|IL|US|New York - All Airports|NY|US
-F00190|04-13-17 20:00|Chicago - Midway|IL|US|Tampa|FL|US
-F00191|04-01-17 01:00|Seattle - Lake Union|WA|US|Boston|MA|US
-F00192|04-28-17 21:00|New York - La Guardia|NY|US|Orlando - Herndon|FL|US
-F00193|03-05-17 05:00|Philadelphia - Trenton/Mercer NJ|PA|US|Chicago - All Aiports|IL|US
-F00194|04-12-17 15:00|Orlando - Herndon|FL|US|Orlando - Herndon|FL|US
-F00195|04-15-17 16:00|Phoenix|AZ|US|New York - All Airports|NY|US
-F00196|04-29-17 20:00|Orlando - Herndon|FL|US|Orlando - Herndon|FL|US
-F00197|04-27-17 11:00|Chicago - O'Hare|IL|US|Chicago - Midway|IL|US
-F00198|04-27-17 17:00|Los Angeles|CA|US|Philadelphia - Trenton/Mercer NJ|PA|US
-F00199|04-26-17 07:00|Washington - Dulles|DC|US|Miami - Sea Plane Base|FL|US
-F00200|04-22-17 07:00|Washington - Dulles|DC|US|Hartsfield Jackson|GA|US
+Flight#|Departure(MM-dd-yy HH:mm)|Origin Airport|Orig City|Orig State|Dest Airport|Dest City|Dest state
+F00000|03-24-17 15:00|Los Angeles|Los Angeles|CA|US|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+F00001|04-18-17 09:00|Hartsfield Jackson|Atlanta|GA|US|Orlando - Herndon|Orlando|FL|US
+F00002|03-15-17 03:00|New York - La Guardia|New York|NY|US|Charlotte|Charlotte|NC|US
+F00003|03-12-17 12:00|Phoenix|Phoenix|AZ|US|New York - Kenedy|New York|NY|US
+F00001|04-18-17 09:00|Hartsfield Jackson|Atlanta|GA|US|Orlando - Herndon|Orlando|FL|US
+F00005|03-14-17 01:00|Miami - Sea Plane Base|Miami|FL|US|Charlotte|Charlotte|NC|US
+F00006|03-29-17 16:00|Hartsfield Jackson|Atlanta|GA|US|Dallas/Forth Worth|Dallas|TX|US
+F00007|03-27-17 15:00|Huston - All airports|Huston|TX|US|Chicago - O'Hare|Chicago|IL|US
+F00008|03-03-17 17:00|San Francisco|San Francisco|CA|US|New York - Kenedy|New York|NY|US
+F00009|04-02-17 22:00|Dallas/Forth Worth|Dallas|TX|US|Philadelphia - International|Philadelphia|PA|US
+F00010|03-18-17 23:00|Miami - International|Miami|FL|US|Boston|Boston|MA|US
+F00011|03-16-17 01:00|Orlando - International|Orlando|FL|US|Chicago - All Aiports|Chicago|IL|US
+F00012|04-11-17 05:00|Washington - Dulles|Washington|DC|US|Orlando - International|Orlando|FL|US
+F00013|04-21-17 02:00|Seattle - Lake Union|Seattle|WA|US|San Francisco|San Francisco|CA|US
+F00014|03-28-17 23:00|Boston|Boston|MA|US|Miami - Sea Plane Base|Miami|FL|US
+F00015|04-07-17 07:00|Chicago - Meigs|Chicago|IL|US|Miami - Sea Plane Base|Miami|FL|US
+F00016|04-17-17 23:00|Miami - International|Miami|FL|US|Huston - All airports|Huston|TX|US
+F00017|04-23-17 23:00|New York - Kenedy|New York|NY|US|Chicago - Midway|Chicago|IL|US
+F00018|04-08-17 19:00|Seattle - Tacoma International|Seattle|WA|US|Chicago - Midway|Chicago|IL|US
+F00019|04-21-17 00:00|New York - Kenedy|New York|NY|US|San Francisco|San Francisco|CA|US
+F00020|04-11-17 00:00|Phoenix|Phoenix|AZ|US|Tampa|Tampa|FL|US
+F00021|04-19-17 14:00|Hartsfield Jackson|Atlanta|GA|US|Tampa|Tampa|FL|US
+F00022|03-04-17 18:00|Chicago - Meigs|Chicago|IL|US|Miami - International|Miami|FL|US
+F00023|04-02-17 05:00|Dallas/Forth Worth|Dallas|TX|US|Washington - National|Washington|DC|US
+F00024|03-28-17 18:00|Huston - All airports|Huston|TX|US|Boston|Boston|MA|US
+F00025|04-10-17 10:00|Huston - Intercontinental|Huston|TX|US|Orlando - International|Orlando|FL|US
+F00026|03-19-17 07:00|New York - All Airports|New York|NY|US|Boston|Boston|MA|US
+F00027|03-24-17 22:00|New York - Kenedy|New York|NY|US|Phoenix|Phoenix|AZ|US
+F00028|03-07-17 00:00|Boston|Boston|MA|US|Philadelphia - International|Philadelphia|PA|US
+F00029|04-05-17 21:00|Seattle - Lake Union|Seattle|WA|US|Seattle - Tacoma International|Seattle|WA|US
+F00030|04-20-17 01:00|Boston|Boston|MA|US|Orlando - Herndon|Orlando|FL|US
+F00031|03-04-17 23:00|Chicago - All Aiports|Chicago|IL|US|Tampa|Tampa|FL|US
+F00032|03-17-17 12:00|Chicago - Meigs|Chicago|IL|US|Chicago - Midway|Chicago|IL|US
+F00033|04-05-17 06:00|Washington - All airports|Washington|DC|US|Hartsfield Jackson|Atlanta|GA|US
+F00034|04-25-17 13:00|Washington - National|Washington|DC|US|Hartsfield Jackson|Atlanta|GA|US
+F00035|03-13-17 10:00|Tampa|Tampa|FL|US|Austin|Austin|TX|US
+F00017|04-23-17 23:00|New York - Kenedy|New York|NY|US|Chicago - Midway|Chicago|IL|US
+F00037|03-02-17 03:00|Boston|Boston|MA|US|Phoenix|Phoenix|AZ|US
+F00018|04-08-17 19:00|Seattle - Tacoma International|Seattle|WA|US|Chicago - Midway|Chicago|IL|US
+F00039|03-24-17 06:00|Washington - All airports|Washington|DC|US|Los Angeles|Los Angeles|CA|US
+F00040|04-11-17 14:00|Hartsfield Jackson|Atlanta|GA|US|Chicago - All Aiports|Chicago|IL|US
+F00041|03-17-17 17:00|Washington - All airports|Washington|DC|US|Tampa|Tampa|FL|US
+F00042|03-11-17 00:00|New York - La Guardia|New York|NY|US|Hartsfield Jackson|Atlanta|GA|US
+F00043|03-06-17 01:00|Seattle - Lake Union|Seattle|WA|US|New York - All Airports|New York|NY|US
+F00044|03-18-17 15:00|Huston - Intercontinental|Huston|TX|US|Washington - All airports|Washington|DC|US
+F00045|04-28-17 21:00|Charlotte|Charlotte|NC|US|Philadelphia - International|Philadelphia|PA|US
+F00046|03-18-17 15:00|Tampa|Tampa|FL|US|Orlando - International|Orlando|FL|US
+F00047|03-06-17 07:00|Chicago - Midway|Chicago|IL|US|New York - Kenedy|New York|NY|US
+F00048|04-03-17 00:00|Dallas/Forth Worth|Dallas|TX|US|Chicago - Midway|Chicago|IL|US
+F00049|03-02-17 15:00|Dallas/Forth Worth|Dallas|TX|US|Seattle - Tacoma International|Seattle|WA|US
+F00050|03-08-17 20:00|Chicago - O'Hare|Chicago|IL|US|Los Angeles|Los Angeles|CA|US
+F00051|03-23-17 13:00|New York - Kenedy|New York|NY|US|Washington - All airports|Washington|DC|US
+F00052|03-08-17 20:00|Austin|Austin|TX|US|Austin|Austin|TX|US
+F00053|04-19-17 21:00|San Francisco|San Francisco|CA|US|Orlando - Herndon|Orlando|FL|US
+F00054|04-18-17 15:00|San Francisco|San Francisco|CA|US|Chicago - All Aiports|Chicago|IL|US
+F00055|03-12-17 10:00|New York - Kenedy|New York|NY|US|Orlando - International|Orlando|FL|US
+F00056|04-29-17 17:00|Huston - Intercontinental|Huston|TX|US|Washington - All airports|Washington|DC|US
+F00057|04-07-17 08:00|Chicago - All Aiports|Chicago|IL|US|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+F00058|04-03-17 04:00|Tampa|Tampa|FL|US|Huston - All airports|Huston|TX|US
+F00059|04-10-17 19:00|Phoenix|Phoenix|AZ|US|Washington - Dulles|Washington|DC|US
+F00060|03-04-17 06:00|Hartsfield Jackson|Atlanta|GA|US|Washington - Dulles|Washington|DC|US
+F00061|04-05-17 09:00|Charlotte|Charlotte|NC|US|Phoenix|Phoenix|AZ|US
+F00062|04-02-17 05:00|Washington - National|Washington|DC|US|Washington - Dulles|Washington|DC|US
+F00063|04-26-17 14:00|Boston|Boston|MA|US|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+F00064|04-21-17 07:00|Seattle - Tacoma International|Seattle|WA|US|Charlotte|Charlotte|NC|US
+F00065|03-02-17 05:00|Charlotte|Charlotte|NC|US|Phoenix|Phoenix|AZ|US
+F00066|04-12-17 22:00|Austin|Austin|TX|US|Miami - International|Miami|FL|US
+F00067|04-14-17 21:00|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US|Seattle - Lake Union|Seattle|WA|US
+F00068|03-27-17 02:00|Seattle - Tacoma International|Seattle|WA|US|San Francisco|San Francisco|CA|US
+F00069|03-18-17 17:00|Hartsfield Jackson|Atlanta|GA|US|Hartsfield Jackson|Atlanta|GA|US
+F00007|03-27-17 15:00|Huston - All airports|Huston|TX|US|Chicago - O'Hare|Chicago|IL|US
+F00071|03-31-17 06:00|Los Angeles|Los Angeles|CA|US|Boston|Boston|MA|US
+F00072|03-19-17 18:00|Chicago - O'Hare|Chicago|IL|US|Washington - Dulles|Washington|DC|US
+F00073|04-15-17 05:00|Orlando - Herndon|Orlando|FL|US|Los Angeles|Los Angeles|CA|US
+F00074|03-17-17 15:00|New York - La Guardia|New York|NY|US|Chicago - Meigs|Chicago|IL|US
+F00075|03-18-17 10:00|Philadelphia - International|Philadelphia|PA|US|Washington - Dulles|Washington|DC|US
+F00076|04-03-17 14:00|Washington - National|Washington|DC|US|Seattle - Tacoma International|Seattle|WA|US
+F00077|03-01-17 18:00|Miami - Sea Plane Base|Miami|FL|US|Phoenix|Phoenix|AZ|US
+F00078|03-21-17 06:00|Huston - Intercontinental|Huston|TX|US|Huston - Intercontinental|Huston|TX|US
+F00079|04-22-17 05:00|Chicago - O'Hare|Chicago|IL|US|Boston|Boston|MA|US
+F00080|03-03-17 11:00|Phoenix|Phoenix|AZ|US|Orlando - International|Orlando|FL|US
+F00081|03-15-17 12:00|Huston - Intercontinental|Huston|TX|US|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+F00082|03-30-17 02:00|Chicago - O'Hare|Chicago|IL|US|New York - La Guardia|New York|NY|US
+F00083|04-10-17 17:00|Orlando - Herndon|Orlando|FL|US|Orlando - Herndon|Orlando|FL|US
+F00084|03-12-17 21:00|Huston - All airports|Huston|TX|US|Miami - Sea Plane Base|Miami|FL|US
+F00085|03-19-17 11:00|New York - All Airports|New York|NY|US|Austin|Austin|TX|US
+F00043|03-06-17 01:00|Seattle - Lake Union|Seattle|WA|US|New York - All Airports|New York|NY|US
+F00049|03-02-17 15:00|Dallas/Forth Worth|Dallas|TX|US|Seattle - Tacoma International|Seattle|WA|US
+F00088|03-13-17 08:00|Chicago - O'Hare|Chicago|IL|US|Austin|Austin|TX|US
+F00089|03-27-17 05:00|Huston - All airports|Huston|TX|US|Orlando - Herndon|Orlando|FL|US
+F00090|03-29-17 07:00|Seattle - Lake Union|Seattle|WA|US|Charlotte|Charlotte|NC|US
+F00091|04-17-17 21:00|Tampa|Tampa|FL|US|New York - La Guardia|New York|NY|US
+F00092|04-26-17 05:00|Orlando - Herndon|Orlando|FL|US|New York - La Guardia|New York|NY|US
+F00093|03-15-17 04:00|San Francisco|San Francisco|CA|US|Boston|Boston|MA|US
+F00094|03-19-17 11:00|New York - La Guardia|New York|NY|US|New York - La Guardia|New York|NY|US
+F00095|04-10-17 09:00|San Francisco|San Francisco|CA|US|Hartsfield Jackson|Atlanta|GA|US
+F00096|04-26-17 17:00|Orlando - Herndon|Orlando|FL|US|Miami - Sea Plane Base|Miami|FL|US
+F00024|03-28-17 18:00|Huston - All airports|Huston|TX|US|Boston|Boston|MA|US
+F00098|04-06-17 01:00|Charlotte|Charlotte|NC|US|Chicago - O'Hare|Chicago|IL|US
+F00099|03-31-17 13:00|Washington - All airports|Washington|DC|US|Boston|Boston|MA|US
+F00100|04-03-17 05:00|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US|Chicago - All Aiports|Chicago|IL|US
+F00101|03-10-17 10:00|Chicago - O'Hare|Chicago|IL|US|Chicago - Meigs|Chicago|IL|US
+F00102|03-15-17 09:00|Tampa|Tampa|FL|US|Washington - National|Washington|DC|US
+F00103|03-11-17 03:00|Chicago - Meigs|Chicago|IL|US|Orlando - Herndon|Orlando|FL|US
+F00104|03-17-17 08:00|New York - All Airports|New York|NY|US|Charlotte|Charlotte|NC|US
+F00105|03-21-17 22:00|Philadelphia - International|Philadelphia|PA|US|Hartsfield Jackson|Atlanta|GA|US
+F00091|04-17-17 21:00|Tampa|Tampa|FL|US|New York - La Guardia|New York|NY|US
+F00107|03-30-17 10:00|Dallas/Forth Worth|Dallas|TX|US|Seattle - Lake Union|Seattle|WA|US
+F00108|04-27-17 03:00|Tampa|Tampa|FL|US|Orlando - International|Orlando|FL|US
+F00017|04-23-17 23:00|New York - Kenedy|New York|NY|US|Chicago - Midway|Chicago|IL|US
+F00110|04-05-17 00:00|Los Angeles|Los Angeles|CA|US|Hartsfield Jackson|Atlanta|GA|US
+F00111|03-31-17 06:00|Austin|Austin|TX|US|New York - Kenedy|New York|NY|US
+F00112|03-30-17 10:00|Philadelphia - International|Philadelphia|PA|US|Seattle - Tacoma International|Seattle|WA|US
+F00113|03-28-17 18:00|Chicago - O'Hare|Chicago|IL|US|Hartsfield Jackson|Atlanta|GA|US
+F00114|03-09-17 12:00|Philadelphia - International|Philadelphia|PA|US|New York - All Airports|New York|NY|US
+F00115|03-26-17 07:00|New York - All Airports|New York|NY|US|Chicago - Meigs|Chicago|IL|US
+F00116|03-27-17 01:00|Chicago - O'Hare|Chicago|IL|US|Charlotte|Charlotte|NC|US
+F00117|03-12-17 06:00|Washington - Dulles|Washington|DC|US|Orlando - International|Orlando|FL|US
+F00118|03-08-17 06:00|Seattle - Lake Union|Seattle|WA|US|Orlando - Herndon|Orlando|FL|US
+F00119|03-29-17 08:00|Hartsfield Jackson|Atlanta|GA|US|Chicago - Midway|Chicago|IL|US
+F00120|04-03-17 11:00|Boston|Boston|MA|US|Boston|Boston|MA|US
+F00121|03-03-17 16:00|Dallas/Forth Worth|Dallas|TX|US|Huston - All airports|Huston|TX|US
+F00122|03-01-17 03:00|Orlando - International|Orlando|FL|US|Philadelphia - International|Philadelphia|PA|US
+F00123|04-15-17 22:00|Charlotte|Charlotte|NC|US|Boston|Boston|MA|US
+F00124|03-19-17 06:00|Miami - International|Miami|FL|US|Chicago - O'Hare|Chicago|IL|US
+F00125|03-04-17 09:00|Charlotte|Charlotte|NC|US|Seattle - Tacoma International|Seattle|WA|US
+F00126|04-26-17 06:00|Tampa|Tampa|FL|US|Miami - Sea Plane Base|Miami|FL|US
+F00127|03-22-17 16:00|Austin|Austin|TX|US|New York - La Guardia|New York|NY|US
+F00128|03-02-17 11:00|Austin|Austin|TX|US|San Francisco|San Francisco|CA|US
+F00129|04-01-17 23:00|Charlotte|Charlotte|NC|US|Huston - All airports|Huston|TX|US
+F00130|04-12-17 08:00|Chicago - Midway|Chicago|IL|US|Huston - Intercontinental|Huston|TX|US
+F00131|04-07-17 12:00|Washington - National|Washington|DC|US|Seattle - Tacoma International|Seattle|WA|US
+F00132|03-07-17 19:00|Tampa|Tampa|FL|US|Seattle - Lake Union|Seattle|WA|US
+F00133|03-07-17 06:00|New York - All Airports|New York|NY|US|Los Angeles|Los Angeles|CA|US
+F00134|03-27-17 20:00|Tampa|Tampa|FL|US|San Francisco|San Francisco|CA|US
+F00135|04-18-17 06:00|Phoenix|Phoenix|AZ|US|San Francisco|San Francisco|CA|US
+F00136|03-27-17 18:00|Hartsfield Jackson|Atlanta|GA|US|Boston|Boston|MA|US
+F00137|03-12-17 21:00|Philadelphia - International|Philadelphia|PA|US|Washington - Dulles|Washington|DC|US
+F00138|04-24-17 15:00|Hartsfield Jackson|Atlanta|GA|US|Austin|Austin|TX|US
+F00139|03-26-17 07:00|Orlando - International|Orlando|FL|US|New York - La Guardia|New York|NY|US
+F00140|03-02-17 17:00|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US|Phoenix|Phoenix|AZ|US
+F00141|04-04-17 18:00|Austin|Austin|TX|US|Huston - Intercontinental|Huston|TX|US
+F00142|04-18-17 18:00|Charlotte|Charlotte|NC|US|Charlotte|Charlotte|NC|US
+F00143|04-16-17 22:00|Orlando - International|Orlando|FL|US|Orlando - Herndon|Orlando|FL|US
+F00144|03-25-17 04:00|Orlando - Herndon|Orlando|FL|US|New York - Kenedy|New York|NY|US
+F00145|03-05-17 06:00|Washington - National|Washington|DC|US|New York - Kenedy|New York|NY|US
+F00146|04-04-17 05:00|Miami - Sea Plane Base|Miami|FL|US|Orlando - International|Orlando|FL|US
+F00147|03-23-17 10:00|Phoenix|Phoenix|AZ|US|Orlando - International|Orlando|FL|US
+F00148|03-07-17 16:00|Charlotte|Charlotte|NC|US|Orlando - Herndon|Orlando|FL|US
+F00149|03-26-17 21:00|Chicago - Meigs|Chicago|IL|US|Chicago - Meigs|Chicago|IL|US
+F00150|04-21-17 10:00|Hartsfield Jackson|Atlanta|GA|US|Hartsfield Jackson|Atlanta|GA|US
+F00151|03-24-17 17:00|Charlotte|Charlotte|NC|US|Los Angeles|Los Angeles|CA|US
+F00152|04-02-17 20:00|Dallas/Forth Worth|Dallas|TX|US|Phoenix|Phoenix|AZ|US
+F00153|04-06-17 07:00|Philadelphia - International|Philadelphia|PA|US|Miami - Sea Plane Base|Miami|FL|US
+F00154|03-23-17 15:00|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US|Seattle - Lake Union|Seattle|WA|US
+F00155|03-02-17 15:00|Chicago - Meigs|Chicago|IL|US|Orlando - Herndon|Orlando|FL|US
+F00156|04-01-17 18:00|Hartsfield Jackson|Atlanta|GA|US|Miami - Sea Plane Base|Miami|FL|US
+F00157|03-17-17 23:00|New York - Kenedy|New York|NY|US|Miami - International|Miami|FL|US
+F00158|04-17-17 00:00|New York - All Airports|New York|NY|US|New York - All Airports|New York|NY|US
+F00159|03-16-17 18:00|Seattle - Tacoma International|Seattle|WA|US|Tampa|Tampa|FL|US
+F00160|03-18-17 18:00|Tampa|Tampa|FL|US|Tampa|Tampa|FL|US
+F00161|04-15-17 20:00|Boston|Boston|MA|US|Chicago - All Aiports|Chicago|IL|US
+F00162|04-24-17 07:00|New York - La Guardia|New York|NY|US|Hartsfield Jackson|Atlanta|GA|US
+F00163|03-19-17 20:00|Washington - All airports|Washington|DC|US|Miami - Sea Plane Base|Miami|FL|US
+F00164|04-27-17 10:00|Phoenix|Phoenix|AZ|US|Dallas/Forth Worth|Dallas|TX|US
+F00165|04-06-17 12:00|San Francisco|San Francisco|CA|US|Phoenix|Phoenix|AZ|US
+F00166|03-18-17 17:00|Washington - National|Washington|DC|US|Miami - International|Miami|FL|US
+F00167|04-10-17 14:00|Los Angeles|Los Angeles|CA|US|Orlando - Herndon|Orlando|FL|US
+F00168|03-05-17 07:00|Miami - International|Miami|FL|US|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+F00169|03-28-17 06:00|Chicago - O'Hare|Chicago|IL|US|Chicago - O'Hare|Chicago|IL|US
+F00170|04-10-17 00:00|Tampa|Tampa|FL|US|Boston|Boston|MA|US
+F00171|04-22-17 17:00|Chicago - Meigs|Chicago|IL|US|Chicago - Midway|Chicago|IL|US
+F00172|04-12-17 06:00|New York - Kenedy|New York|NY|US|Washington - National|Washington|DC|US
+F00173|04-12-17 09:00|Los Angeles|Los Angeles|CA|US|Chicago - All Aiports|Chicago|IL|US
+F00174|04-26-17 17:00|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US|New York - All Airports|New York|NY|US
+F00175|04-21-17 12:00|Chicago - Meigs|Chicago|IL|US|Huston - All airports|Huston|TX|US
+F00176|03-16-17 01:00|San Francisco|San Francisco|CA|US|Chicago - Midway|Chicago|IL|US
+F00177|03-29-17 02:00|Dallas/Forth Worth|Dallas|TX|US|Washington - All airports|Washington|DC|US
+F00178|04-01-17 13:00|Hartsfield Jackson|Atlanta|GA|US|Orlando - Herndon|Orlando|FL|US
+F00013|04-21-17 02:00|Seattle - Lake Union|Seattle|WA|US|San Francisco|San Francisco|CA|US
+F00180|03-20-17 03:00|Chicago - Meigs|Chicago|IL|US|Seattle - Lake Union|Seattle|WA|US
+F00181|03-15-17 03:00|Miami - International|Miami|FL|US|Huston - Intercontinental|Huston|TX|US
+F00182|04-17-17 21:00|Washington - All airports|Washington|DC|US|Washington - All airports|Washington|DC|US
+F00183|04-26-17 06:00|Chicago - O'Hare|Chicago|IL|US|Miami - Sea Plane Base|Miami|FL|US
+F00184|03-12-17 05:00|Chicago - All Aiports|Chicago|IL|US|Chicago - Midway|Chicago|IL|US
+F00185|03-23-17 21:00|Washington - Dulles|Washington|DC|US|Washington - Dulles|Washington|DC|US
+F00186|03-12-17 05:00|Seattle - Lake Union|Seattle|WA|US|Orlando - Herndon|Orlando|FL|US
+F00187|03-02-17 21:00|Chicago - Meigs|Chicago|IL|US|Charlotte|Charlotte|NC|US
+F00188|04-12-17 02:00|Washington - Dulles|Washington|DC|US|Orlando - International|Orlando|FL|US
+F00189|03-23-17 21:00|Chicago - Meigs|Chicago|IL|US|New York - All Airports|New York|NY|US
+F00190|04-13-17 20:00|Chicago - Midway|Chicago|IL|US|Tampa|Tampa|FL|US
+F00191|04-01-17 01:00|Seattle - Lake Union|Seattle|WA|US|Boston|Boston|MA|US
+F00192|04-28-17 21:00|New York - La Guardia|New York|NY|US|Orlando - Herndon|Orlando|FL|US
+F00193|03-05-17 05:00|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US|Chicago - All Aiports|Chicago|IL|US
+F00194|04-12-17 15:00|Orlando - Herndon|Orlando|FL|US|Orlando - Herndon|Orlando|FL|US
+F00195|04-15-17 16:00|Phoenix|Phoenix|AZ|US|New York - All Airports|New York|NY|US
+F00196|04-29-17 20:00|Orlando - Herndon|Orlando|FL|US|Orlando - Herndon|Orlando|FL|US
+F00197|04-27-17 11:00|Chicago - O'Hare|Chicago|IL|US|Chicago - Midway|Chicago|IL|US
+F00198|04-27-17 17:00|Los Angeles|Los Angeles|CA|US|Philadelphia - Trenton/Mercer NJ|Philadelphia|PA|US
+F00199|04-26-17 07:00|Washington - Dulles|Washington|DC|US|Miami - Sea Plane Base|Miami|FL|US
+F00200|04-22-17 07:00|Washington - Dulles|Washington|DC|US|Hartsfield Jackson|Atlanta|GA|US
