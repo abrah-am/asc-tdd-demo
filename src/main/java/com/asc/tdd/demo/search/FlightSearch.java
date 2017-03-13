@@ -17,30 +17,17 @@ public class FlightSearch {
 	public List<Flight> selectAll() {
 		return new ArrayList<>(allFlights);
 	}
-
-	public List<Flight> selectByOriginAndDestAirport(String originAirport, String destAirport) {
+	
+	public List<Flight> searchByCriteria(Flight criteria) {
 		List<Flight> results = new ArrayList<>();
 		for(Flight flight: allFlights) {
-			if(flight.getOrigin().getName().equals(originAirport)) {
-				if(flight.getDestination().getName().equals(destAirport)) {
-					results.add(flight);
-				}
-			}
-		}
-		return results;
-	}
-
-	public List<Flight> selectByOriginDestAirportAndDeparture(String originAirport, String destAirport, Date departure) {
-		List<Flight> results = new ArrayList<>();
-		List<Flight> byOriginAndDest = selectByOriginAndDestAirport(originAirport, destAirport);
-		for(Flight flight: byOriginAndDest) {
-			if(isSameDay(flight.getDeparture(), departure)) {
+			if(match(flight, criteria)) {
 				results.add(flight);
 			}
 		}
 		return results;
 	}
-	
+
 	private static boolean isSameDay(Date date1, Date date2) {
 		Calendar cal1 = Calendar.getInstance();
 		cal1.setTime(date1);
@@ -49,5 +36,19 @@ public class FlightSearch {
 		return cal1.get(Calendar.YEAR) == cal2.get(Calendar.YEAR)
 				&& cal1.get(Calendar.DAY_OF_YEAR) == cal2.get(Calendar.DAY_OF_YEAR);
 	}
-
+	
+	private static boolean match(Flight original, Flight criteria) {
+		boolean match = true;
+		if(criteria.getOrigin().getName() != null) {
+			match &= criteria.getOrigin().getName().equals(original.getOrigin().getName());
+		}
+		if(criteria.getDestination().getName() != null) {
+			match &= criteria.getDestination().getName().equals(original.getDestination().getName());
+		}
+		if(criteria.getDeparture() != null) {
+			match &= isSameDay(criteria.getDeparture(), original.getDeparture());
+		}
+		return match;
+	}
+	
 }

@@ -8,10 +8,12 @@ import java.util.List;
 
 import org.junit.Test;
 
+import com.asc.tdd.demo.builder.FlightBuilder;
 import com.asc.tdd.demo.mock.FlightMockData;
 import com.asc.tdd.demo.vo.Flight;
 
 public class SearchFlightTest {
+	private final FlightSearch flightSearch = new FlightSearch(FlightMockData.allFlights);
 
 	
 	@Test
@@ -23,17 +25,23 @@ public class SearchFlightTest {
 	
 	@Test
 	public void selectFlightsByOriginAndDestAirport() {
-		List<Flight> actual = new FlightSearch(FlightMockData.allFlights).selectByOriginAndDestAirport("Los Angeles", "Philadelphia - Trenton/Mercer NJ");
+		Flight criteria = new FlightBuilder()
+				.fromAirport("Los Angeles").toAirport("Philadelphia - Trenton/Mercer NJ").build();
+		List<Flight> actual = flightSearch.searchByCriteria(criteria);
 		List<Flight> expected = Arrays.asList(FlightMockData._f00000);
 		assertEquals("Invalid number of results: ", expected.size(), actual.size());
 		assertEquals(expected, actual);
 
-		actual = new FlightSearch(FlightMockData.allFlights).selectByOriginAndDestAirport("Hartsfield Jackson", "Orlando - Herndon");
+		criteria = new FlightBuilder()
+				.fromAirport("Hartsfield Jackson").toAirport("Orlando - Herndon").build();
+		actual = flightSearch.searchByCriteria(criteria);
 		expected = Arrays.asList(FlightMockData._f00001);
 		assertEquals("Invalid number of results: ", expected.size(), actual.size());
 		assertEquals(expected, actual);
 
-		actual = new FlightSearch(FlightMockData.allFlights).selectByOriginAndDestAirport("Los Angeles", "New York - La Guardia");
+		criteria = new FlightBuilder()
+				.fromAirport("Los Angeles").toAirport("New York - La Guardia").build();
+		actual = flightSearch.searchByCriteria(criteria);
 		expected = Arrays.asList(FlightMockData._f00004, FlightMockData._f00005);
 		assertEquals("Invalid number of results: ", expected.size(), actual.size());
 		assertEquals(expected, actual);
@@ -42,12 +50,16 @@ public class SearchFlightTest {
 	@Test
 	public void selectFlightsByOriginDestAiportAndDeparture() throws Exception {
 		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yy");
-		List<Flight> actual = new FlightSearch(FlightMockData.allFlights).selectByOriginDestAirportAndDeparture("Los Angeles", "New York - La Guardia", sdf.parse("03/24/17"));
+		Flight criteria = new FlightBuilder()
+				.fromAirport("Los Angeles").toAirport("New York - La Guardia").departingOn(sdf.parse("03/24/17")).build();
+		List<Flight> actual = flightSearch.searchByCriteria(criteria);
 		List<Flight> expected = Arrays.asList(FlightMockData._f00004);
 		assertEquals("Invalid number of results: ", expected.size(), actual.size());
 		assertEquals(expected, actual);
 
-		actual = new FlightSearch(FlightMockData.allFlights).selectByOriginDestAirportAndDeparture("Los Angeles", "New York - La Guardia", sdf.parse("03/25/17"));
+		criteria = new FlightBuilder()
+				.fromAirport("Los Angeles").toAirport("New York - La Guardia").departingOn(sdf.parse("03/25/17")).build();
+		actual = flightSearch.searchByCriteria(criteria);
 		expected = Arrays.asList(FlightMockData._f00005);
 		assertEquals("Invalid number of results: ", expected.size(), actual.size());
 		assertEquals(expected, actual);
