@@ -10,7 +10,7 @@ import com.asc.tdd.demo.vo.Flight;
 
 public class FlightParser implements Parser<Flight> {
 	private final SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yy HH:mm");
-
+	
 	/* (non-Javadoc)
 	 * @see com.asc.tdd.demo.parser.Parser#parse(java.util.List)
 	 */

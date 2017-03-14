@@ -10,17 +10,16 @@ import org.junit.Test;
 
 import com.asc.tdd.demo.builder.FlightBuilder;
 import com.asc.tdd.demo.mock.FlightMockData;
-import com.asc.tdd.demo.parser.AirportParserTest;
 import com.asc.tdd.demo.vo.Flight;
 
 public class SearchFlightTest {
-	private final FlightSearch flightSearch = new FlightSearch(AirportParserTest.allFlights);
+	private final FlightSearch flightSearch = new FlightSearch(FlightMockData.allFlights);
 
 	
 	@Test
 	public void selectAllFlightsO() {
-		List<Flight> actual = new FlightSearch(AirportParserTest.allFlights).selectAll();
-		assertEquals(AirportParserTest.allFlights.size(), actual.size());
+		List<Flight> actual = new FlightSearch(FlightMockData.allFlights).selectAll();
+		assertEquals(FlightMockData.allFlights.size(), actual.size());
 	}
 	
 	

@@ -2,6 +2,8 @@ package com.asc.tdd.demo.mock;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.asc.tdd.demo.parser.AirportParserTest;
 import com.asc.tdd.demo.vo.Flight;
@@ -28,13 +30,15 @@ public final class FlightMockData {
 			FlightMockData._f00001 = new Flight("F00001", sdf.parse("04-18-17 09:00"), AirportParserTest._hartsfieldJackson, AirportParserTest._orlandoHerndon);
 			FlightMockData._f00004 = new Flight("F00004", sdf.parse("03-24-17 15:00"), AirportParserTest._losAngeles, AirportParserTest._nyLaGuardia);
 			FlightMockData._f00005 = new Flight("F00005", sdf.parse("03-25-17 15:00"), AirportParserTest._losAngeles, AirportParserTest._nyLaGuardia);
-			AirportParserTest.allFlights.add(_f00000);
-			AirportParserTest.allFlights.add(_f00001);
-			AirportParserTest.allFlights.add(_f00004);
-			AirportParserTest.allFlights.add(_f00005);
+			FlightMockData.allFlights.add(_f00000);
+			FlightMockData.allFlights.add(_f00001);
+			FlightMockData.allFlights.add(_f00004);
+			FlightMockData.allFlights.add(_f00005);
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}
 	}
+
+	public static final List<Flight> allFlights = new ArrayList<>();
 	
 }
