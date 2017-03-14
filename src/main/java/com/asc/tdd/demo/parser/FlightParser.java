@@ -21,7 +21,7 @@ public class FlightParser {
 						new Airport(data[2], data[3], data[4], data[5]), 
 						new Airport(data[6], data[7], data[8], data[9]));
 				if(flights.contains(flight) || 
-						flight.getOrigin().getName().equals(flight.getDestination().getName())) {
+						flight.getOrigin().getCity().equals(flight.getDestination().getCity())) {
 					continue;
 				}
 				flights.add(flight);

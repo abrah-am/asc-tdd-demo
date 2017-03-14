@@ -27,7 +27,7 @@ public class FlightParserTest {
 	}
 	
 	@Test
-	public void shouldIgnoreFlightsWhichOriginAndDestinationIsSameAirport() throws Exception { 
+	public void shouldIgnoreFlightsWhichOriginAndDestinationIsSameCity() throws Exception { 
 		List<Flight> actual = new FlightParser().parse(Arrays.asList(FlightMockData.F00000, FlightMockData.F00001, FlightMockData.F00002));
 		List<Flight> expected = Arrays.asList(FlightMockData._f00000, FlightMockData._f00001);
 		assertEquals("Invalid number of Flights returned: ", expected.size(), actual.size());

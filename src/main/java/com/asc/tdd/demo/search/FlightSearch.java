@@ -5,10 +5,11 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import com.asc.tdd.demo.reader.FlightFileReader;
 import com.asc.tdd.demo.vo.Flight;
 
 public class FlightSearch {
-	private List<Flight> allFlights;
+	private final List<Flight> allFlights;
 
 	public FlightSearch(List<Flight> allFlights) {
 		this.allFlights = new ArrayList<>(allFlights);
