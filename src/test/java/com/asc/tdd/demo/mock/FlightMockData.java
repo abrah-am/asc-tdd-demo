@@ -18,11 +18,11 @@ public final class FlightMockData {
 	public static final String F00004 = "F00004|03-24-17 15:00|Los Angeles|Los Angeles|CA|US|New York - La Guardia|New York|NY|US";
 	public static final String F00005 = "F00005|03-25-17 15:00|Los Angeles|Los Angeles|CA|US|New York - La Guardia|New York|NY|US";
 	
-	public static final Airport _losAngeles = new Airport("Los Angeles", "Los Angeles", "CA", "US");
-	public static final Airport _philadelphiaTrentont = new Airport("Philadelphia - Trenton/Mercer NJ", "Philadelphia", "PA", "US");
-	public static final Airport _hartsfieldJackson = new Airport("Hartsfield Jackson", "Atlanta", "GA", "US");
-	public static final Airport _orlandoHerndon = new Airport("Orlando - Herndon", "Orlando", "FL", "US");
-	public static final Airport _nyLaGuardia = new Airport("New York - La Guardia", "New York", "NY", "US");
+	public static final Airport _losAngeles = new Airport("LAX", "Los Angeles", "Los Angeles", "CA", "US");
+	public static final Airport _philadelphiaTrentont = new Airport("TTN", "Philadelphia - Trenton/Mercer NJ", "Philadelphia", "PA", "US");
+	public static final Airport _hartsfieldJackson = new Airport("ATL", "Hartsfield Jackson", "Atlanta", "GA", "US");
+	public static final Airport _orlandoHerndon = new Airport("ORL", "Orlando - Herndon", "Orlando", "FL", "US");
+	public static final Airport _nyLaGuardia = new Airport("LGA", "New York - La Guardia", "New York", "NY", "US");
 	
 	public static Flight _f00000;
 	public static Flight _f00001;
