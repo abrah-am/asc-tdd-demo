@@ -8,9 +8,13 @@ import java.util.List;
 import com.asc.tdd.demo.vo.Airport;
 import com.asc.tdd.demo.vo.Flight;
 
-public class FlightParser {
+public class FlightParser implements Parser<Flight> {
 	private final SimpleDateFormat sdf = new SimpleDateFormat("MM-dd-yy HH:mm");
 
+	/* (non-Javadoc)
+	 * @see com.asc.tdd.demo.parser.Parser#parse(java.util.List)
+	 */
+	@Override
 	public List<Flight> parse(List<String> flightStrList) throws Exception {
 		List<Flight> flights = new ArrayList<>();
 		for(String flightStr: flightStrList) {

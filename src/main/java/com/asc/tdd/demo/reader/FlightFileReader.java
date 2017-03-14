@@ -6,12 +6,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 
-import com.asc.tdd.demo.parser.FlightParser;
-import com.asc.tdd.demo.vo.Flight;
+import com.asc.tdd.demo.parser.Parser;
 
 public class FlightFileReader {
 	
-	public static List<Flight> read(String fileName, FlightParser parser) throws Exception {
+	public static <T> List<T> read(String fileName, Parser<T> parser) throws Exception {
 		ClassLoader classLoader = FlightFileReader.class.getClassLoader();
 		URL url = classLoader.getResource(fileName);
 		Path path = Paths.get(url.toURI());
