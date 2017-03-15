@@ -24,8 +24,8 @@ public class FlightBuilder {
 	}
 	public Flight build() {
 		return new Flight(null, departure, 
-				new Airport(originAirportName, null, null, null), 
-				new Airport(destAirportName, null, null, null));
+				new Airport(null, originAirportName, null, null, null), 
+				new Airport(null, destAirportName, null, null, null));
 	}
 	
 }

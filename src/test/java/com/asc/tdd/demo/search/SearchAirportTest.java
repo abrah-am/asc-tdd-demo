@@ -5,14 +5,19 @@ import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import com.asc.tdd.demo.parser.AirportParserTest;
 import com.asc.tdd.demo.vo.Airport;
 
 public class SearchAirportTest {
-	private final AirportSearch airportSearch = new AirportSearch(AirportParserTest.allAirports);
+	private AirportSearch airportSearch;
 
+	@Before
+	public void init() { 
+		airportSearch = new AirportSearch(AirportParserTest.allAirports);
+	}
 	
 	@Test
 	public void searchAirportByCode() {

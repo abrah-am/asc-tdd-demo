@@ -6,6 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.List;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import com.asc.tdd.demo.builder.FlightBuilder;
@@ -13,8 +14,12 @@ import com.asc.tdd.demo.mock.FlightMockData;
 import com.asc.tdd.demo.vo.Flight;
 
 public class SearchFlightTest {
-	private final FlightSearch flightSearch = new FlightSearch(FlightMockData.allFlights);
+	private FlightSearch flightSearch;
 
+	@Before
+	public void init() { 
+		flightSearch = new FlightSearch(FlightMockData.allFlights);
+	}
 	
 	@Test
 	public void selectAllFlightsO() {
@@ -24,7 +29,7 @@ public class SearchFlightTest {
 	
 	
 	@Test
-	public void selectFlightsByOriginAndDestAirport() {
+	public void selectFlightsByOriginAndDestAirport() throws Exception {
 		Flight criteria = new FlightBuilder()
 				.fromAirport("Los Angeles").toAirport("Philadelphia - Trenton/Mercer NJ").build();
 		List<Flight> actual = flightSearch.searchByCriteria(criteria);
