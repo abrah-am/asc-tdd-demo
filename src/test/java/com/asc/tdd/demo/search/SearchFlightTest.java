@@ -52,6 +52,26 @@ public class SearchFlightTest {
 		assertEquals(expected, actual);
 	}
 	
+	
+	
+	@Test
+	public void selectFlightsByOriginAndDestinationCodesAndDeparture() throws Exception { 
+		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yy");
+		Flight criteria = new FlightBuilder()
+				.from("LAX").to("TTN").departingOn(sdf.parse("03/24/17")).build();
+		List<Flight> actual = flightSearch.searchByCriteria(criteria);
+		List<Flight> expected = Arrays.asList(FlightMockData._f00000);
+		assertEquals("Invalid number of results: ", expected.size(), actual.size());
+		assertEquals(expected, actual);
+
+		criteria = new FlightBuilder()
+				.from("LAX").to("LGA").departingOn(sdf.parse("03/25/17")).build();
+		actual = flightSearch.searchByCriteria(criteria);
+		expected = Arrays.asList(FlightMockData._f00005);
+		assertEquals("Invalid number of results: ", expected.size(), actual.size());
+		assertEquals(expected, actual);		
+	}
+	
 	@Test
 	public void selectFlightsByOriginDestAiportAndDeparture() throws Exception {
 		SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yy");

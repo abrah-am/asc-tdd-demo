@@ -22,9 +22,9 @@ public class FlightReaderTest {
 	
 	@Before
 	public void init() throws Exception {
-		List<Airport> airports = FlightFileReader.read("phase-2/airport-codes.txt", new AirportParser());
+		List<Airport> airports = FileParser.read("phase-2/airport-codes.txt", new AirportParser());
 		this.airportSearch = new AirportSearch(airports);
-		List<Flight> flights = FlightFileReader.read("phase-2/list-of-flights.txt", new FlightParser(airportSearch));
+		List<Flight> flights = FileParser.read("phase-2/list-of-flights.txt", new FlightParser(airportSearch));
 		this.flightSearch = new FlightSearch(flights);
 		
 	}

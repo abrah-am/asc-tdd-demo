@@ -39,6 +39,12 @@ public class FlightSearch {
 	
 	private static boolean match(Flight original, Flight criteria) {
 		boolean match = true;
+		if(criteria.getOrigin().getCode() != null) {
+			match &= criteria.getOrigin().getCode().equals(original.getOrigin().getCode());
+		}
+		if(criteria.getDestination().getCode() != null) {
+			match &= criteria.getDestination().getCode().equals(original.getDestination().getCode());
+		}
 		if(criteria.getOrigin().getName() != null) {
 			match &= criteria.getOrigin().getName().equals(original.getOrigin().getName());
 		}

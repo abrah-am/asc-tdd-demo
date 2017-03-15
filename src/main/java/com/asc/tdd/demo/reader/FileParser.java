@@ -8,10 +8,10 @@ import java.util.List;
 
 import com.asc.tdd.demo.parser.Parser;
 
-public class FlightFileReader {
+public class FileParser {
 	
 	public static <T> List<T> read(String fileName, Parser<T> parser) throws Exception {
-		ClassLoader classLoader = FlightFileReader.class.getClassLoader();
+		ClassLoader classLoader = FileParser.class.getClassLoader();
 		URL url = classLoader.getResource(fileName);
 		Path path = Paths.get(url.toURI());
 		List<String> lines = Files.readAllLines(path);
