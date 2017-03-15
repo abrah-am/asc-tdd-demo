@@ -5,13 +5,13 @@
 	<artifactId>asc-tdd-demo-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ASCTDDDemoApp Maven Webapp</name>
+	<name>ASCTDDDemoApp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
 			<groupId>javax</groupId>
 			<artifactId>javaee-web-api</artifactId>
-			<version>7.0</version>
+			<version>6.0</version>
 			<scope>provided</scope>
 		</dependency>
         <dependency>
@@ -33,7 +33,16 @@
 					<target>1.7</target>
 				</configuration>
 			</plugin>
-
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.2.11.v20150529</version>
+                <configuration>
+                    <webApp>
+                        <contextPath>/${project.name}</contextPath>
+                    </webApp>
+                </configuration>
+            </plugin>  
 		</plugins>
 	</build>
 </project>
