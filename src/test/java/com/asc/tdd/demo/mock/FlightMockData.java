@@ -22,6 +22,7 @@ public final class FlightMockData {
 	public static Flight _f00001;
 	public static Flight _f00004;
 	public static Flight _f00005;
+	public static Flight _f00006;
 	public static final List<Flight> allFlights = new ArrayList<>();
 	
 	static {
@@ -31,10 +32,12 @@ public final class FlightMockData {
 			FlightMockData._f00001 = new Flight("F00001", sdf.parse("04-18-17 09:00"), AirportParserTest._hartsfieldJackson, AirportParserTest._orlandoHerndon);
 			FlightMockData._f00004 = new Flight("F00004", sdf.parse("03-24-17 15:00"), AirportParserTest._losAngeles, AirportParserTest._nyLaGuardia);
 			FlightMockData._f00005 = new Flight("F00005", sdf.parse("03-25-17 15:00"), AirportParserTest._losAngeles, AirportParserTest._nyLaGuardia);
+			FlightMockData._f00006 = new Flight("F00006", sdf.parse("03-25-17 15:00"), AirportParserTest._losAngeles, AirportParserTest._nyAllAirports);
 			FlightMockData.allFlights.add(_f00000);
 			FlightMockData.allFlights.add(_f00001);
 			FlightMockData.allFlights.add(_f00004);
 			FlightMockData.allFlights.add(_f00005);
+			FlightMockData.allFlights.add(_f00006);
 		} catch (ParseException e) {
 			e.printStackTrace();
 		}

@@ -21,6 +21,7 @@ public class AirportParserTest {
 	public static final Airport _hartsfieldJackson = new Airport("ATL", "Hartsfield Jackson", "Atlanta", "GA", "US");
 	public static final Airport _orlandoHerndon = new Airport("ORL", "Orlando - Herndon", "Orlando", "FL", "US");
 	public static final Airport _nyLaGuardia = new Airport("LGA", "New York - La Guardia", "New York", "NY", "US");
+	public static final Airport _nyAllAirports = new Airport("NYC", "New York - All Airports", "New York", "NY", "US");
 	
 	public static final List<Airport> allAirports = Arrays.asList(_losAngeles, _philadelphiaTrentont, 
 			_hartsfieldJackson, _orlandoHerndon, _nyLaGuardia);

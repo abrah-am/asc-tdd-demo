@@ -8,7 +8,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
-import com.asc.tdd.demo.builder.FlightBuilder;
+import com.asc.tdd.demo.builder.FlightCriteriaBuilder;
 import com.asc.tdd.demo.parser.AirportParser;
 import com.asc.tdd.demo.parser.FlightParser;
 import com.asc.tdd.demo.search.AirportSearch;
@@ -45,31 +45,31 @@ public class FlightReaderTest {
 	@Test
 	public void searchFlightsByOriginAndDestinationAirport() throws Exception {
 		//From: Chicago - O'Hare To: Charlotte
-		Flight criteria = new FlightBuilder().fromAirport("Chicago - O'Hare").toAirport("Charlotte").build();
+		Flight criteria = new FlightCriteriaBuilder().fromAirport("Chicago - O'Hare").toAirport("Charlotte").build();
 		int flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);
 
-		criteria = new FlightBuilder().fromAirport("New York - Kenedy").toAirport("Miami - International").build();
+		criteria = new FlightCriteriaBuilder().fromAirport("New York - Kenedy").toAirport("Miami - International").build();
 		flightCount = flightSearch.searchByCriteria(criteria).size(); 
 		assertEquals(1, flightCount);
 
-		criteria = new FlightBuilder().fromAirport("New York - La Guardia").toAirport("Hartsfield Jackson").build();
+		criteria = new FlightCriteriaBuilder().fromAirport("New York - La Guardia").toAirport("Hartsfield Jackson").build();
 		flightCount = flightSearch.searchByCriteria(criteria).size(); 
 		assertEquals(2, flightCount);
 
-		criteria = new FlightBuilder().fromAirport("Tampa").toAirport("Boston - International").build();
+		criteria = new FlightCriteriaBuilder().fromAirport("Tampa").toAirport("Boston - International").build();
 		flightCount = flightSearch.searchByCriteria(criteria).size(); 
 		assertEquals(0, flightCount);
 
-		criteria = new FlightBuilder().fromAirport("Washington - All airports").toAirport("Los Angeles").build();
+		criteria = new FlightCriteriaBuilder().fromAirport("Washington - All airports").toAirport("Los Angeles").build();
 		flightCount = flightSearch.searchByCriteria(criteria).size(); 
 		assertEquals(1, flightCount);
 
-		criteria = new FlightBuilder().fromAirport("Chicago - Meigs").toAirport("Huston - All airports").build();
+		criteria = new FlightCriteriaBuilder().fromAirport("Chicago - Meigs").toAirport("Huston - All airports").build();
 		flightCount = flightSearch.searchByCriteria(criteria).size(); 
 		assertEquals(1, flightCount);
 
-		criteria = new FlightBuilder().fromAirport("Los Angeles").toAirport("Charlotte").build();
+		criteria = new FlightCriteriaBuilder().fromAirport("Los Angeles").toAirport("Charlotte").build();
 		flightCount = flightSearch.searchByCriteria(criteria).size(); 
 		assertEquals(0, flightCount);
 	}	
@@ -78,38 +78,38 @@ public class FlightReaderTest {
 	public void searchFlightByOriginDestinationAndDeparture() throws Exception {
 		final SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
 		//From: New York - La Guardia To: Hartsfield Jackson Departure: 04/24/2017
-		Flight criteria = new FlightBuilder()
+		Flight criteria = new FlightCriteriaBuilder()
 				.fromAirport("New York - La Guardia").toAirport("Hartsfield Jackson").departingOn(sdf.parse("04/24/2017")).build();
 		int flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);		
 
 		//From: Washington - National To: Hartsfield Jackson Departure: 04/25/2017
-		criteria = new FlightBuilder()
+		criteria = new FlightCriteriaBuilder()
 				.fromAirport("Washington - National").toAirport("Hartsfield Jackson").departingOn(sdf.parse("04/25/2017")).build();
 		flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);
 		
 		//From: Charlotte To: Huston - All airports Departure: 04/01/2017
-		criteria = new FlightBuilder()
+		criteria = new FlightCriteriaBuilder()
 				.fromAirport("Charlotte").toAirport("Huston - All airports").departingOn(sdf.parse("04/01/2017")).build();
 		flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);	
 
 		
 		//From: Chicago - Meigs To: Seattle - Lake Union Departure: 03/20/2017
-		criteria = new FlightBuilder()
+		criteria = new FlightCriteriaBuilder()
 				.fromAirport("Chicago - Meigs").toAirport("Seattle - Lake Union").departingOn(sdf.parse("03/20/2017")).build();
 		flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);			
 
 		//From: San Francisco To: Boston Departure: 03/15/2017
-		criteria = new FlightBuilder()
+		criteria = new FlightCriteriaBuilder()
 				.fromAirport("San Francisco").toAirport("Boston").departingOn(sdf.parse("03/15/2017")).build();
 		flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);			
 		
 		//From: Chicago - Meigs To: Huston - All airports Departure 04/20/2017
-		criteria = new FlightBuilder()
+		criteria = new FlightCriteriaBuilder()
 				.fromAirport("Chicago - Meigs").toAirport("Huston - All airports").departingOn(sdf.parse("04/21/2017")).build();
 		flightCount = flightSearch.searchByCriteria(criteria).size();
 		assertEquals(1, flightCount);		

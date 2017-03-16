@@ -13,19 +13,30 @@
 				<th><label for="from">Origin:</label> <select name="from">
 						<option value="">Select One</option>
 						<c:forEach var="airport" items="${airports}">
-							<option value="${airport.code}" ${selectedFrom eq airport.code?'selected="selected"':''}>${airport.name}</option>
+							<option value="${airport.code}" ${from eq airport.code?'selected="selected"':''}>${airport.name}</option>
 						</c:forEach>
 				</select></th>
 				<th><label for="to">Destination:</label> <select name="to">
 						<option value="">Select One</option>
 						<c:forEach var="airport" items="${airports}">
-							<option value="${airport.code}" ${selectedTo eq airport.code?'selected="selected"':''}>${airport.name}</option>
+							<option value="${airport.code}" ${to eq airport.code?'selected="selected"':''}>${airport.name}</option>
 						</c:forEach>
 				</select></th>
 				<th><label for="departure">Departure:</label> <input
-					name="departure" type="date" value="${selectedDeparture}"></th>
+					name="departure" type="date" value="${departure}"></th>
 				<th><input type="submit" value="search"></th>
 			</tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="fromNearby" ${fromNearby != null ? 'checked="checked"' :'' }/>
+                    <label for="fromNearby">Include Nearby Airports</label> 
+                </td>
+                <td>
+                    <input type="checkbox" name="toNearby" ${toNearby != null ? 'checked="checked"' :'' }/>
+                    <label for="toNearby">Include Nearby Airports</label> 
+                </td>
+                <th colspan="2"></th>
+            </tr>
 		</table>
 	</form>
 	<br />

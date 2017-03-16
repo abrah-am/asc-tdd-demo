@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.asc.tdd.demo.builder.FlightBuilder;
+import com.asc.tdd.demo.builder.FlightCriteriaBuilder;
 import com.asc.tdd.demo.parser.AirportParser;
 import com.asc.tdd.demo.parser.FlightParser;
 import com.asc.tdd.demo.reader.FileParser;
@@ -47,31 +47,75 @@ public class ControllerServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String from = request.getParameter("from");
+		request.setAttribute("from", from);
+		
 		String to = request.getParameter("to");
+		request.setAttribute("to", to);
+		
 		String departure = request.getParameter("departure");
-		FlightBuilder builder = new FlightBuilder();
-		if(from != null && !from.isEmpty()) {
-			builder = builder.from(from);
-			request.setAttribute("selectedFrom", from);
-		}
-		if(to != null && !to.isEmpty()) {
-			builder = builder.to(to);
-			request.setAttribute("selectedTo", to);
-		}
-		if(departure != null && !departure.isEmpty()) {
-			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-			try {
-				builder = builder.departingOn(sdf.parse(departure));
-				request.setAttribute("selectedDeparture", departure);
-			} catch (ParseException e) {
-				throw new ServletException("Unable to parse: " + departure);
-			}
-		}
+		request.setAttribute("departure", departure);
+		
+		String fromNearby = request.getParameter("fromNearby");
+		request.setAttribute("fromNearby", fromNearby);
+
+		String toNearby = request.getParameter("toNearby");
+		request.setAttribute("toNearby", toNearby);
+		
+		FlightCriteriaBuilder builder = new FlightCriteriaBuilder();
+		builder = addOrigin(from, fromNearby, builder);
+		builder = addDestination(to, toNearby, builder);
+		builder = addDeparture(departure, builder);
 		
 		request.setAttribute("airports", airportSearch.selectAll());
 		request.setAttribute("flights", flightSearch.searchByCriteria(builder.build()));
 		RequestDispatcher rd = request.getRequestDispatcher("index.jsp");
 		rd.forward(request, response);
+	}
+
+	private FlightCriteriaBuilder addOrigin(String from, String fromNearby, FlightCriteriaBuilder builder) throws ServletException {
+		if(from != null && !from.isEmpty()) {
+			if(fromNearby != null && !fromNearby.isEmpty()) {
+				builder = builder.fromCity(getCityForAirportCode(from));
+			}
+			else{
+				builder = builder.from(from);
+			}
+		}
+		return builder;
+	}
+
+	private String getCityForAirportCode(String from) throws ServletException {
+		List<Airport> origin = airportSearch.searchByAirportCode(from);
+		if(origin.isEmpty()) {
+			throw new ServletException("Unable to find airport for code: " + from);
+		}
+		return origin.get(0).getCity();
+	}
+
+	
+	private FlightCriteriaBuilder addDestination(String to, String toNearby, FlightCriteriaBuilder builder)
+			throws ServletException {
+		if(to != null && !to.isEmpty()) {
+			if(toNearby != null && !toNearby.isEmpty()) {
+				builder = builder.toCity(getCityForAirportCode(to));
+			}
+			else{
+				builder = builder.to(to);
+			}
+		}
+		return builder;
+	}
+
+	private FlightCriteriaBuilder addDeparture(String departure, FlightCriteriaBuilder builder) throws ServletException {
+		if(departure != null && !departure.isEmpty()) {
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			try {
+				builder = builder.departingOn(sdf.parse(departure));
+			} catch (ParseException e) {
+				throw new ServletException("Unable to parse: " + departure);
+			}
+		}
+		return builder;
 	}
 
 	/**
